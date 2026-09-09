@@ -1,127 +1,119 @@
-# Nafees Ur Rehman
-### AWS DevOps & Cloud Infrastructure Engineer
+<div align="center">
 
-`nafees@platform:~$ cat engineering-focus.txt`
+# ☁️ Nafees Ur Rehman
+### **AWS DevOps & Cloud Infrastructure Engineer**
+*Automating deployments, building resilient multi-tier cloud architectures, and codifying infrastructure.*
 
-Building production-oriented AWS infrastructure with Terraform, Kubernetes, and reviewed delivery workflows. My portfolio connects infrastructure provisioning, CI/CD, GitOps, and Python/Bash automation with least-privilege access and reproducible operations. The repositories distinguish implemented code from cloud deployment evidence.
+[![Live Engineering Platform](https://img.shields.io/badge/Live_Portfolio-AWS_CloudFront_CDN-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://github.com/expertnafees-hub/aws-devops)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nafees-ur-rehman556/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/expertnafees-hub?tab=repositories)
 
-![Infrastructure command examples](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=4200&pause=1800&color=3FB950&background=0D1117&vCenter=true&width=900&height=42&lines=aws%20sts%20get-caller-identity%20--query%20%27Account%27%20--output%20text;terraform%20plan%20-out%3Dproduction.tfplan;terraform%20apply%20production.tfplan;kubectl%20rollout%20status%20deployment%2Fcore-api%20-n%20production;trivy%20image%20--severity%20HIGH%2CCRITICAL%20backend-app%3Av1.4;argocd%20app%20sync%20production-platform)
+```bash
+nafees@cloud:~$ whoami
+Nafees Ur Rehman | AWS DevOps Engineer | us-east-1
 
-*Illustrative commands, not a live terminal or deployment history.*
-
-## Engineering principles
-
-| Area | Principle |
-| --- | --- |
-| Infrastructure | Declarative, modular, versioned |
-| Deployments | Automated, immutable, verified |
-| Security | Least privilege and short-lived credentials |
-| Changes | Reviewed and traceable |
-| Environments | Separate state and configuration |
-| Operations | Observable behavior and actionable runbooks |
-| Recovery | Designed and tested before claiming readiness |
-
-## Platform workflow
-
-**Architect → Provision → Build → Test → Scan → Deploy → Observe → Operate**
-
-```mermaid
-flowchart TD
-    PR["Reviewed source change"] --> CI["GitHub Actions: tests and validation"]
-    CI --> IaC["Terraform plan / reviewed apply"]
-    IaC --> AWS["VPC / IAM / private EKS workers"]
-    CI --> Build["Multi-stage Docker build"]
-    Build --> Scan["Trivy vulnerability gate"]
-    Scan --> Registry["ECR: immutable digest"]
-    Registry --> GitOps["Reviewed deployment-state pull request"]
-    GitOps --> Argo["Argo CD / Helm rendering"]
-    Argo --> Workload["Kubernetes application"]
-    AWS --> Workload
-    TLS["Ingress / cert-manager"] --> Workload
-    Workload --> Ops["Health checks / logs / rollout verification"]
-    Ops -.-> Planned["Planned: Prometheus / Grafana / CloudWatch workload collection"]
+nafees@cloud:~$ cat mission.txt
+"Building reliable infrastructure. Automating everything else."
 ```
 
-Terraform owns the cloud foundation and platform add-ons. Argo CD owns application deployment state. Planned observability integrations are shown explicitly.
+</div>
 
-## Technology focus
+---
 
-| Domain | Technologies |
-| --- | --- |
-| Cloud & IaC | ![AWS](https://img.shields.io/badge/AWS-30363d?style=flat-square) ![Amazon VPC](https://img.shields.io/badge/Amazon%20VPC-30363d?style=flat-square) ![IAM](https://img.shields.io/badge/IAM-30363d?style=flat-square) ![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-30363d?style=flat-square) ![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-30363d?style=flat-square) ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-30363d?style=flat-square) ![Amazon RDS](https://img.shields.io/badge/Amazon%20RDS-30363d?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-30363d?style=flat-square) ![OpenTofu](https://img.shields.io/badge/OpenTofu-30363d?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-30363d?style=flat-square) |
-| Containers & orchestration | ![Docker](https://img.shields.io/badge/Docker-30363d?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-30363d?style=flat-square) ![Helm](https://img.shields.io/badge/Helm-30363d?style=flat-square) ![Argo CD](https://img.shields.io/badge/Argo%20CD-30363d?style=flat-square) |
-| CI/CD & DevSecOps | ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-30363d?style=flat-square) ![Trivy](https://img.shields.io/badge/Trivy-30363d?style=flat-square) ![SonarQube](https://img.shields.io/badge/SonarQube-30363d?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-30363d?style=flat-square) |
-| Automation & integration | ![Python](https://img.shields.io/badge/Python-30363d?style=flat-square) ![REST APIs](https://img.shields.io/badge/REST%20APIs-30363d?style=flat-square) ![n8n](https://img.shields.io/badge/n8n-30363d?style=flat-square) |
-| Observability | ![Prometheus](https://img.shields.io/badge/Prometheus-30363d?style=flat-square) ![Grafana](https://img.shields.io/badge/Grafana-30363d?style=flat-square) ![Amazon CloudWatch](https://img.shields.io/badge/Amazon%20CloudWatch-30363d?style=flat-square) |
+### 🌐 Featured Platform: Production AWS Engineering Portfolio
 
-The matrix describes engineering focus; it is not a claim of production experience with every technology.
+> **Repository:** [expertnafees-hub/aws-devops](https://github.com/expertnafees-hub/aws-devops)  
+> **Hosting Stack:** React 18 • TypeScript • Tailwind CSS • Amazon S3 • AWS CloudFront OAC • GitHub Actions CI/CD • CloudFormation / Terraform IaC  
+> **Key Capabilities:** Interactive browser terminal emulator, real-time SVG topology visualizer, automated cache invalidation, and zero-downtime global edge delivery.
 
-## Featured engineering projects
+---
 
-### Modular AWS EKS platform
+### 🛠️ Core Engineering Stack
 
-[Repository](https://github.com/expertnafees-hub/aws-eks-terraform-platform)
+<table>
+  <tr>
+    <td align="center" width="22%"><b>Cloud Infrastructure</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Amazon_VPC-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazon-s3&logoColor=white" />
+      <img src="https://img.shields.io/badge/CloudFront_CDN-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Route_53-8C4FFF?style=flat-square&logo=amazon-route53&logoColor=white" />
+      <img src="https://img.shields.io/badge/Amazon_RDS-527FFF?style=flat-square&logo=amazon-rds&logoColor=white" />
+      <img src="https://img.shields.io/badge/IAM_Security-DD344C?style=flat-square&logo=amazon-aws&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Infrastructure as Code</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Terraform_v1.8+-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+      <img src="https://img.shields.io/badge/CloudFormation-FF4F8B?style=flat-square&logo=amazon-aws&logoColor=white" />
+      <img src="https://img.shields.io/badge/HCL-623CE4?style=flat-square&logo=terraform&logoColor=white" />
+      <img src="https://img.shields.io/badge/Remote_S3_State-232F3E?style=flat-square" />
+      <img src="https://img.shields.io/badge/DynamoDB_Locking-4053D6?style=flat-square&logo=amazon-dynamodb&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Containers & K8s</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/Amazon_EKS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" />
+      <img src="https://img.shields.io/badge/Argo_CD-EF6B55?style=flat-square&logo=argo&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>CI/CD & Automation</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux_Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/DevSecOps_Trivy-0052CC?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Observability & Ops</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazon-cloudwatch&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
-| Dimension | Implementation and intent |
-| --- | --- |
-| Problem | Reproduce Kubernetes infrastructure with explicit environment boundaries. |
-| Architecture | Multi-AZ VPC, private managed nodes, private EKS API, IAM/IRSA, and Helm platform add-ons. |
-| Decisions | Separate foundation/add-on states; reusable VPC, IAM, security, EKS, and add-on modules. |
-| Security | Restricted API CIDRs, scoped controller identities, encrypted/versioned state bootstrap, and certificate automation. |
-| Automation | Terraform formatting/schema checks and IaC scanning workflow. |
-| Reliability | Two-node baseline, controlled node updates, separate state, and documented teardown/recovery. |
-| Stack | AWS, Terraform, EKS, Helm, Traefik, cert-manager. |
-| Status | Infrastructure code implemented; AWS provisioning and operational validation pending. |
+---
 
-Related baseline: [AWS VPC Foundation](https://github.com/expertnafees-hub/aws-terraform-vpc-foundation), a deliberately small public-subnet networking project.
+### 📂 Featured Cloud Engineering Repositories
 
-### GitOps application delivery
+| Repository | Focus Area | Architectural Highlights |
+|---|---|---|
+| 🚀 [**aws-devops**](https://github.com/expertnafees-hub/aws-devops) | **Production Web Platform** | CloudFront CDN, S3 Origin Access Control (OAC), automated GitHub Actions CI/CD pipeline, and CloudFormation bootstrap. |
+| ☸️ [**aws-eks-terraform-platform**](https://github.com/expertnafees-hub/aws-eks-terraform-platform) | **Kubernetes Platform** | Modular EKS cluster with multi-AZ private worker nodes, IRSA, Traefik ingress, and automated TLS certificate issuance. |
+| 🔄 [**gitops-platform-config**](https://github.com/expertnafees-hub/gitops-platform-config) | **GitOps Continuous Delivery** | Helm and Argo CD configuration with immutable container tags, environment segregation, and automated rollbacks. |
+| 🐍 [**gitops-core-api**](https://github.com/expertnafees-hub/gitops-core-api) | **Containerized Microservices** | Python API with multi-stage Docker builds, Trivy security vulnerability gating, and reviewed GitOps promotion. |
+| 🌐 [**aws-terraform-vpc-foundation**](https://github.com/expertnafees-hub/aws-terraform-vpc-foundation) | **Foundational Networking** | Highly available modular AWS VPC, public/private subnets across multiple AZs, NAT gateways, and least-privilege security groups. |
 
-[Application and CI](https://github.com/expertnafees-hub/gitops-core-api) · [Deployment configuration](https://github.com/expertnafees-hub/gitops-platform-config)
+---
 
-| Dimension | Implementation and intent |
-| --- | --- |
-| Problem | Trace a reviewed source change to an immutable Kubernetes release. |
-| Architecture | Flask/Gunicorn → Docker → Trivy → ECR → GitOps pull request → Argo CD. |
-| Decisions | Separate application/deployment repositories; digest promotion; explicit release dispatch. |
-| Security | Non-root read-only runtime, dropped capabilities, short-lived AWS identity, and scoped GitHub App promotion. |
-| Automation | Application tests, image gate, container smoke test, chart validation, and promotion script. |
-| Reliability | Startup/readiness/liveness probes, bounded rolling updates, disruption budget, and Git-based rollback procedure. |
-| Stack | Python, Docker, GitHub Actions, Trivy, ECR, Helm, Argo CD, Kubernetes. |
-| Status | Application and delivery code implemented; AWS/ECR/Argo CD integration requires environment setup. |
+### ⚡ Architectural Tenets
 
-## GitHub analytics
+- 🔒 **Least Privilege by Default:** Strict IAM roles, short-lived credentials via OIDC, and private subnets for all compute workloads.
+- 📦 **Immutable Deployments:** Containers tagged by git digest, declarative infrastructure states, and automated zero-downtime rollouts.
+- 📜 **Infrastructure as Code:** No manual console modifications — all cloud assets codified, peer-reviewed, and versioned via Git.
+- ⏱️ **Continuous Verification:** Strict linting, static typechecking, vulnerability scanning, and end-to-end automated pipelines.
 
-<details>
-<summary>Public activity and repository languages</summary>
+---
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=expertnafees-hub&theme=github_dark&hide_border=true&hide_rank=true)
+### 📬 Connect With Me
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=expertnafees-hub&theme=github_dark&hide_border=true&layout=compact)
+<div align="center">
 
-These [third-party cards](https://github.com/anuraghazra/github-readme-stats) are best-effort and can be rate-limited or unavailable. Reliable hosting requires separate configuration. Language distribution describes repository contents, not proficiency.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nafees-ur-rehman556/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/expertnafees-hub)
+[![Portfolio](https://img.shields.io/badge/AWS_Portfolio-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/expertnafees-hub/aws-devops)
 
-</details>
+*"Infrastructure that executes without deterministic, reproducible cloud environments is technical debt."*
 
-## Contribution activity
-
-<details>
-<summary>Contribution visualization</summary>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/expertnafees-hub/expertnafees-hub/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/expertnafees-hub/expertnafees-hub/output/github-contribution-grid-snake.svg">
-  <img alt="Contribution snake for expertnafees-hub" src="https://raw.githubusercontent.com/expertnafees-hub/expertnafees-hub/output/github-contribution-grid-snake.svg">
-</picture>
-
-Generated by the repository workflow; available after its first successful run.
-
-</details>
-
-## Contact & collaboration
-
-I welcome discussion of AWS architecture, Terraform module boundaries, Kubernetes delivery, and infrastructure automation.
-
-[GitHub](https://github.com/expertnafees-hub) · [Public repositories](https://github.com/expertnafees-hub?tab=repositories)
-
-Use the relevant project's issue tracker for reproducible problems or proposed improvements.
+</div>
