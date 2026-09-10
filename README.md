@@ -4,13 +4,13 @@
 ### **AWS DevOps & Cloud Infrastructure Engineer**
 *Automating deployments, building resilient multi-tier cloud architectures, and codifying infrastructure.*
 
-[![Live Engineering Platform](https://img.shields.io/badge/Live_Portfolio-AWS_CloudFront_CDN-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://github.com/expertnafees-hub/aws-devops)
+[![Live Engineering Platform](https://img.shields.io/badge/Live_Portfolio-AWS_CloudFront_CDN-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://drqzr31lhv59g.cloudfront.net)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nafees-ur-rehman556/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/expertnafees-hub?tab=repositories)
 
 ```bash
 nafees@cloud:~$ whoami
-Nafees Ur Rehman | AWS DevOps Engineer | us-east-1
+Nafees Ur Rehman | AWS DevOps & Cloud Infrastructure Engineer | us-east-1
 
 nafees@cloud:~$ cat mission.txt
 "Building reliable infrastructure. Automating everything else."
@@ -23,8 +23,9 @@ nafees@cloud:~$ cat mission.txt
 ### 🌐 Featured Platform: Production AWS Engineering Portfolio
 
 > **Repository:** [expertnafees-hub/aws-devops](https://github.com/expertnafees-hub/aws-devops)  
-> **Hosting Stack:** React 18 • TypeScript • Tailwind CSS • Amazon S3 • AWS CloudFront OAC • GitHub Actions CI/CD • CloudFormation / Terraform IaC  
-> **Key Capabilities:** Interactive browser terminal emulator, real-time SVG topology visualizer, automated cache invalidation, and zero-downtime global edge delivery.
+> **Live Edge URL:** [https://drqzr31lhv59g.cloudfront.net](https://drqzr31lhv59g.cloudfront.net)  
+> **Hosting Stack:** React 18 • TypeScript • Tailwind CSS • Amazon S3 • AWS CloudFront OAC • AWS WAF v2 • Zero-Secret GitHub Actions OIDC • CloudFormation / Terraform IaC  
+> **Key Capabilities:** Interactive browser terminal emulator, real-time SVG topology visualizer, AWS WAF rate-limiting defense, automated cache invalidation, and zero-downtime global edge delivery.
 
 ---
 
@@ -89,8 +90,9 @@ nafees@cloud:~$ cat mission.txt
 
 | Repository | Focus Area | Architectural Highlights |
 |---|---|---|
-| 🚀 [**aws-devops**](https://github.com/expertnafees-hub/aws-devops) | **Production Web Platform** | CloudFront CDN, S3 Origin Access Control (OAC), automated GitHub Actions CI/CD pipeline, and CloudFormation bootstrap. |
-| ☸️ [**aws-eks-terraform-platform**](https://github.com/expertnafees-hub/aws-eks-terraform-platform) | **Kubernetes Platform** | Modular EKS cluster with multi-AZ private worker nodes, IRSA, Traefik ingress, and automated TLS certificate issuance. |
+| 🏗️ [**aws-three-tier-architecture**](https://github.com/expertnafees-hub/aws-three-tier-architecture) | **Enterprise Multi-Tier IaC** | Production VPC (Public/Private/DB subnets across 2 AZs), Internet-facing ALB, Auto Scaling Group (ASG) with rolling updates, Multi-AZ RDS MySQL, AWS Secrets Manager, and end-to-end Terraform automation. |
+| 🚀 [**aws-devops**](https://github.com/expertnafees-hub/aws-devops) | **Production Edge Platform** | CloudFront CDN, S3 Origin Access Control (OAC), AWS WAF v2 rate-limiting, and zero-secret GitHub Actions OIDC CI/CD deployment. |
+| ☸️ [**aws-eks-terraform-platform**](https://github.com/expertnafees-hub/aws-eks-terraform-platform) | **Kubernetes Platform** | Modular EKS cluster with multi-AZ private worker nodes, IAM Roles for Service Accounts (IRSA), Traefik ingress, and automated TLS certificate issuance. |
 | 🔄 [**gitops-platform-config**](https://github.com/expertnafees-hub/gitops-platform-config) | **GitOps Continuous Delivery** | Helm and Argo CD configuration with immutable container tags, environment segregation, and automated rollbacks. |
 | 🐍 [**gitops-core-api**](https://github.com/expertnafees-hub/gitops-core-api) | **Containerized Microservices** | Python API with multi-stage Docker builds, Trivy security vulnerability gating, and reviewed GitOps promotion. |
 | 🌐 [**aws-terraform-vpc-foundation**](https://github.com/expertnafees-hub/aws-terraform-vpc-foundation) | **Foundational Networking** | Highly available modular AWS VPC, public/private subnets across multiple AZs, NAT gateways, and least-privilege security groups. |
@@ -112,7 +114,7 @@ nafees@cloud:~$ cat mission.txt
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nafees-ur-rehman556/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/expertnafees-hub)
-[![Portfolio](https://img.shields.io/badge/AWS_Portfolio-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/expertnafees-hub/aws-devops)
+[![Portfolio](https://img.shields.io/badge/AWS_Portfolio-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://drqzr31lhv59g.cloudfront.net)
 
 *"Infrastructure that executes without deterministic, reproducible cloud environments is technical debt."*
 
