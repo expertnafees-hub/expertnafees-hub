@@ -1,7 +1,7 @@
 <div align="center">
 
 # ☁️ Nafees Ur Rehman
-### **AWS DevOps & Cloud Infrastructure Engineer**
+### **AWS DevOps Engineer**
 *Automating deployments, building resilient multi-tier cloud architectures, and codifying infrastructure.*
 
 [![Live Engineering Platform](https://img.shields.io/badge/Live_Portfolio-AWS_CloudFront_CDN-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://drqzr31lhv59g.cloudfront.net)
@@ -10,7 +10,7 @@
 
 ```bash
 nafees@cloud:~$ whoami
-Nafees Ur Rehman | AWS DevOps & Cloud Infrastructure Engineer | us-east-1
+Nafees Ur Rehman | AWS DevOps Engineer | us-east-1
 
 nafees@cloud:~$ cat mission.txt
 "Building reliable infrastructure. Automating everything else."
